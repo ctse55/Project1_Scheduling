@@ -1,0 +1,95 @@
+Test Case 1 Results: 
+Enter schedule for person 1: [['12:00','13:00'],['14:00','15:00']]
+Enter Daily Availability for person 1: ['9:00','19:00']
+Enter schedule for person 2: [['10:15','11:00'],['11:30','12:45'],['14:00','16:00']]
+Enter Daily Availability for person 2: ['9:00','18:30']
+Enter duration of the proposed meeting: 30
+[['9:00', '10:15'], ['11:00', '11:30'], ['13:00', '14:00'], ['16:00', '18:30']]
+
+Test Case 2 Results: 
+Enter schedule for person 1: [['12:00','13:00'],['14:00','15:00']]
+Enter Daily Availability for person 1: ['9:00','19:00']
+Enter schedule for person 2: [['10:15','11:00'],['11:30','12:45'],['14:00','16:00']]
+Enter Daily Availability for person 2: ['9:00','18:30']
+Enter duration of the proposed meeting: 120
+[['16:00', '18:30']]
+
+Test Case 3 Results: 
+Enter schedule for person 1: [['10:00','13:00'],['14:00','15:00']]
+Enter Daily Availability for person 1: ['9:00','19:00']
+Enter schedule for person 2: [['10:15','11:00'],['11:30','12:45'],['14:00','16:00']]
+Enter Daily Availability for person 2: ['9:00','18:30']
+Enter duration of the proposed meeting: 60
+[['9:00', '10:00'], ['13:00', '14:00'], ['16:00', '18:30']]
+
+Test Case 4 Results: 
+Enter schedule for person 1: [['10:00','11:00'],['14:15','16:00']]
+Enter Daily Availability for person 1: ['9:00','18:00']
+Enter schedule for person 2: [['8:30','9:45'],['11:00','12:15'],['16:00','17:50']]
+Enter Daily Availability for person 2: ['8:00','18:00']
+Enter duration of the proposed meeting: 45
+[['12:15', '14:15']]
+
+Test Case 5 Results: 
+Enter schedule for person 1: [['8:00','9:30'],['12:00','13:15'],['16:00','16:30']]
+Enter Daily Availability for person 1: ['7:00','18:00']
+Enter schedule for person 2: [['8:00','9:30'],['12:00','13:15'],['16:00','16:30']]
+Enter Daily Availability for person 2: ['7:30','18:30']
+Enter duration of the proposed meeting: 30
+[['7:30', '8:00'], ['9:30', '12:00'], ['13:15', '16:00'], ['16:30', '18:00']]
+
+Test Case 6 Results: 
+Enter schedule for person 1: []
+Enter Daily Availability for person 1: ['10:00','20:00']
+Enter schedule for person 2: [['9:00','11:00'],['13:00','13:45'],['14:00','16:00']]
+Enter Daily Availability for person 2: ['8:00','17:00']
+Enter duration of the proposed meeting: 70
+[['11:00', '13:00']]
+
+Test Case 7 Results: 
+Enter schedule for person 1: [['7:30','8:30'],['9:00','10:00'],['10:30','11:30'],['12:00','13:00'],['14:00','15:00'], ['15:30','16:30']]
+Enter Daily Availability for person 1: ['7:00','17:00']
+Enter schedule for person 2: [['8:00','9:00'],['9:30','10:30'],['11:00','12:00'],['12:30','13:30'],['15:00','16:00'], ['16:30','17:30']]
+Enter Daily Availability for person 2: ['8:00','18:00']
+Enter duration of the proposed meeting: 30
+[['13:30', '14:00']]
+
+Test Case 8 Results: 
+Enter schedule for person 1: []
+Enter Daily Availability for person 1: ['9:00','17:00']
+Enter schedule for person 2: []
+Enter Daily Availability for person 2: ['7:00','15:00']
+Enter duration of the proposed meeting: 120
+[['9:00', '15:00']]
+
+Test Case 9 Results: 
+Enter schedule for person 1: [['9:00','12:45']]
+Enter Daily Availability for person 1: ['9:00','22:00']
+Enter schedule for person 2: [['13:00','15:00'], ['18:00','20:00']]
+Enter Daily Availability for person 2: ['10:00','23:00']
+Enter duration of the proposed meeting: 90
+[['15:00', '18:00'], ['20:00', '22:00']]
+
+Test Case 10 Results: 
+Enter schedule for person 1: [['11:15','12:00']]
+Enter Daily Availability for person 1: ['10:00','20:00']
+Enter schedule for person 2: []
+Enter Daily Availability for person 2: ['6:00','16:00']
+Enter duration of the proposed meeting: 140
+[['12:00', '16:00']]
+
+Test Case 11 Results: 
+Enter schedule for person 1: [['9:00','10:30'],['14:00','15:00']]
+Enter Daily Availability for person 1: ['8:00','16:00']
+Enter schedule for person 2: [['10:00','11:00'],['12:00','13:00'],['14:00','15:00']]
+Enter Daily Availability for person 2: ['7:30','16:00']
+Enter duration of the proposed meeting: 30
+[['8:00', '9:00'], ['11:00', '12:00'], ['13:00', '14:00'], ['15:00', '16:00']]
+
+Test Case 12 Results: 
+Enter schedule for person 1: [['9:00','13:00']]
+Enter Daily Availability for person 1: ['9:00','19:00']
+Enter schedule for person 2: [['13:00','18:00']]
+Enter Daily Availability for person 2: ['10:00','22:00']
+Enter duration of the proposed meeting: 65
+[]

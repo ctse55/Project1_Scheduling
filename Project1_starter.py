@@ -34,8 +34,8 @@ def mergedSchedules(pers1_Schedule, pers2_Schedule):
     merged = [[0,0]]  #initialize the merging list as empty
     i,j = 0,0
 
-    pers1_ScheduleMinutes = minuteConversion(pers1_Schedule)
-    pers2_ScheduleMinutes = minuteConversion(pers2_Schedule)
+    pers1_ScheduleMinutes = listToMinutes(pers1_Schedule)
+    pers2_ScheduleMinutes = listToMinutes(pers2_Schedule)
 
     #compares the meeting times of the two persons 
     while i < len(pers1_ScheduleMinutes) and j < len(pers2_ScheduleMinutes):
@@ -129,9 +129,9 @@ def minutesToHour(minutes):
 
 def main():
     pers1Schedule = ast.literal_eval(input("Enter schedule for person 1: "))
-    pers1DailyAct = ast.literal_eval(input("Enter Daily Availability for pers 1: "))
+    pers1DailyAct = ast.literal_eval(input("Enter Daily Availability for person 1: "))
     pers2Schedule = ast.literal_eval(input("Enter schedule for person 2: "))
-    pers2DailyAct = ast.literal_eval(input("Enter Daily Availability for pers 2: "))
+    pers2DailyAct = ast.literal_eval(input("Enter Daily Availability for person 2: "))
     duration = input("Enter duration of the proposed meeting: ")
     finalSchedule = groupSchedule(pers1Schedule, pers1DailyAct, pers2Schedule, pers2DailyAct, duration)
 
