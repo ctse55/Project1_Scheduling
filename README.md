@@ -10,6 +10,6 @@ Instruction to Run:
 3. When prompted to input Working Period and Busy Schedule enter the schedule as the time as a string in '[HH:MM]' format then press enter
     - If you are adding more time ranges in the Busy Schedule section put the separate ranges in brackets (i.e. [['9:00','10:00'],['11:00','12:00']]
 4. When prompted to input the meeting duration just enter the integer and press enter
-5. THe results will be printed below after the duration input 
+5. The results will be printed below after the duration input 
 
 
