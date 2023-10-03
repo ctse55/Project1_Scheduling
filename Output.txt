@@ -1,4 +1,4 @@
-__Test Case 1 Results:__
+** Test Case 1 Results: **
 Enter schedule for person 1: [['12:00','13:00'],['14:00','15:00']]
 Enter Daily Availability for person 1: ['9:00','19:00']
 Enter schedule for person 2: [['10:15','11:00'],['11:30','12:45'],['14:00','16:00']]
